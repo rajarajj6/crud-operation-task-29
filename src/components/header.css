@@ -1,0 +1,26 @@
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.false {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.done {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.body {
+  background-color: aqua;
+  height: 100vh;
+}

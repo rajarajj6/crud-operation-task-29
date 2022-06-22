@@ -1,0 +1,64 @@
+.tablebody {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  /* background-color: rgb(226, 217, 217); */
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(odd):hover {
+  background-color: gold;
+}
+
+tr:nth-child(even):hover {
+  background-color: white;
+}
+
+.vbtn {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+  border-radius: 50px;
+}
+
+.ebtn {
+  background-color: darkorchid;
+  color: white;
+  border-color: darkorchid;
+  border-radius: 50px
+}
+
+.dbtn {
+  background-color: red;
+  color: black;
+  border-color: red;
+  border-radius: 50px;
+}
+
+.centertable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backbtn {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  border-radius: 60px;
+
+}
